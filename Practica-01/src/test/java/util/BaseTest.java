@@ -22,7 +22,7 @@ public class BaseTest {
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
-		driver.get("https://demo.nopcommerce.com/");
+		driver.get("https://demo.nopcommerce.com/"); // URL de la página que queremos probar
 	}
 
 	@AfterMethod
