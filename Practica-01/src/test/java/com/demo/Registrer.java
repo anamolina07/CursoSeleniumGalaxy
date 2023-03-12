@@ -39,7 +39,7 @@ public class Registrer extends BaseTest {
 		driver.findElement(By.id("Password")).sendKeys("Password123");
 		driver.findElement(By.id("ConfirmPassword")).sendKeys("Password123");
 	
-		//Thread.sleep(10000);
+		Thread.sleep(10000);
 		
 		driver.findElement(By.id("register-button")).submit();
 	}
